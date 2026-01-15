@@ -1,0 +1,56 @@
+Dia 1: 17-12-2025
+Me dieron recomendaciones para ocupar ciertas herramientas.
+Necesario: 
+Types scrypt
+HTML
+React
+Node js
+Dockers
+Java Scrypt
+
+
+Dia 2: 18-12-2025
+
+Viendo videos del Profe Luis
+Según lo que veo:
+Elasticsearch: Motor de búsqueda es una buena base para generar una plataforma funcional 
+InfluxDB: Una base de datos de series temporales (optimizada para datos que cambian con el tiempo).
+	Ideal para monitoreo, métricas, eventos y cualquier dato con sello de tiempo. 
+
+Grafana: Una plataforma de visualización de métricas (gráficos, dashboards, alertas).
+	Se usa universalmente para observar datos de series temporales de muchas fuentes. 
+
+Conector de InfluxDB en Grafana:Grafana tiene que “conectarse” a InfluxDB para poder leer los datos y visualizarlos.
+	El video muestra cómo configurar ese data source de forma que Grafana pueda consultar InfluxDB. 
+
+
+
+
+Por lo tanto: ¿Qué haremos?
+
+Generar una plataforma de monitoreo y análisis de datos en tiempo real:
+Con 
+	- Capturar datos continuamente
+	- Guardarlos con marca temporal
+	- Permitir analizarlos por:
+		- tiempo
+		- tipo
+		- frecuencia
+		- tendencias geográficas
+
+	- Visualizarlos en dashboards
+
+
+InfluxDB dio problemas asi que lo intentare con Dockers
+
+token: nEijLzyd4XwcKiQ-dUV-QbJhgst3wu9NVwV4LLFQta-vST3utkxV6bJ_1WYxBjpMTgVH4b-RSqPrO2wPiE8cDA==
+monitoreo read write: oJd1Qeumz-r_fc7oa8h-lGD2L5pkLMDTci13QpWtsygVbpWeQAX6dFbpknFiWNKGamGnxsKF3yT5wm762Qtu4A==
+
+Se hizo la primera prueba de simulación de datos para el influxdb
+
+
+Dia 3: 19-12-2025 (10:30/)
+
+Revisión del flujo de InfluxDB con los dockers y la simulación de datos.
+Revisión de definiciones nuevas o pertinentes.
+

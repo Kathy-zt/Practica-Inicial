@@ -1,0 +1,8 @@
+
+Persistencia Docker:
+- InfluxDB corre en contenedor
+- Datos almacenados en volumen
+- Reinicios no afectan información
+
+Validación:
+- Se probó reinicio y recreación de contenedor

@@ -1,0 +1,17 @@
+
+[CSV / Datos simulados]
+        |
+        v
+[Lectura + Validación]
+        |
+        v
+[Consolidación / Consenso]
+        |
+        v
+[InfluxDB (Docker + Volumen)]
+        |
+        v
+[Grafana Dashboards]
+        |
+        v
+[Usuario]
