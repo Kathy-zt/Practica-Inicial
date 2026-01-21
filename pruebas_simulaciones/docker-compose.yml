@@ -1,0 +1,29 @@
+services:
+  influxdb:
+    image: influxdb:2.7
+    container_name: influxdb_container
+    ports:
+      - "8086:8086"
+    volumes:
+      # PERSISTENCIA: Mapea una carpeta local a la del contenedor
+      - ./influxdb_data:/var/lib/influxdb2
+      - ./influxdb_config:/etc/influxdb2
+    networks:
+      - monitoring_network
+
+  grafana:
+    image: grafana/grafana-oss
+    container_name: grafana_container
+    ports:
+      - "3000:3000"
+    volumes:
+      # PERSISTENCIA: Guarda dashboards y configuraciones
+      - ./grafana_data:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin # Cambia esto luego
+    networks:
+      - monitoring_network
+
+networks:
+  monitoring_network:
+    driver: bridge

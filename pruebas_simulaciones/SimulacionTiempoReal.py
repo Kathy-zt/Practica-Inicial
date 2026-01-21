@@ -13,8 +13,8 @@ from influxdb_client.client.write_api import SYNCHRONOUS
 # =========================
 URL = "http://127.0.0.1:8086"
 TOKEN = "1ruSH0Pc3jda8g6QIQLbvtxqdJ6zquVnO8zwNTrCHziWWeZvT1HFIeSmDjXys5a0YCPJFYpUOxMmKFDS6R92ZA=="
-ORG = "monitoreorg"          # ajusta si tu org se llama distinto
-BUCKET = "Lectura_CSV"         # tu bucket (confirmado)
+ORG = "monitoreorg"       
+BUCKET = "Lectura_CSV"       
 
 MEASUREMENT = "ranas"
 
