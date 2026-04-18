@@ -45,6 +45,7 @@ InfluxDB dio problemas asi que lo intentare con Dockers
 
 token: nEijLzyd4XwcKiQ-dUV-QbJhgst3wu9NVwV4LLFQta-vST3utkxV6bJ_1WYxBjpMTgVH4b-RSqPrO2wPiE8cDA==
 monitoreo read write: oJd1Qeumz-r_fc7oa8h-lGD2L5pkLMDTci13QpWtsygVbpWeQAX6dFbpknFiWNKGamGnxsKF3yT5wm762Qtu4A==
+LecturaCSV: OY3nJx5Wjh78rJegdfnQ2FXTQ0EFP3bo1yOmDx5H3aRsvSikAyTEVrkujX4NCv0cd26ibi6z2bFWOLZ52U05ig==
 
 Se hizo la primera prueba de simulación de datos para el influxdb
 
