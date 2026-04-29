@@ -5,7 +5,7 @@ from influxdb_client import InfluxDBClient, Point
 from influxdb_client.client.write_api import SYNCHRONOUS
 
 INFLUX_URL = "http://localhost:8086"
-INFLUX_TOKEN = "OY3nJx5Wjh78rJegdfnQ2FXTQ0EFP3bo1yOmDx5H3aRsvSikAyTEVrkujX4NCv0cd26ibi6z2bFWOLZ52U05ig=="
+INFLUX_TOKEN = ""
 INFLUX_ORG = "monitoreorg"
 INFLUX_BUCKET = "Lectura_CSV"
 
